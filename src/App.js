@@ -1,20 +1,26 @@
 import './App.css';
 import React, { useState } from 'react';
-import princesses from './superheroDataSheet.json';
+import heroes from './superheroDataSheet.json';
+import bang from "./images/comic_graphics/vecteezy_bang-comic-explosion-with-yellow-and-red-colors-explosion_24800846.png";
 
 function App() {
   const [counter, setCounter] = useState(1);
   const [addPoint, setAddPoint] = useState(0);
   const [score, setScore] = useState(0);
+  const [onomatopoeia] = useState(document.getElementById("onomatopoeia"));
 
   const correctAnswer = (e) => {
     const oc = document.getElementById("option-container");
     const answer = document.getElementById("answer");
     const option = e.target;
+    const onomatopoeia = document.getElementById("onomatopoeia")
     const correct = document.getElementById("correct");
     if(option.innerText === correct.innerText){
       oc.style.display = "none";
-      answer.style.display = "block";
+      onomatopoeia.style.display = "inline";
+      onomatopoeia.classList.add("add-onomatopoeia");
+      
+      // answer.style.display = "block";
       setAddPoint(addPoint + 1);
     } else {
       if(option.id !== "option-container"){
@@ -25,8 +31,11 @@ function App() {
         setAddPoint(addPoint - 1);
       }
     }
-    console.log(addPoint);
   }
+
+  // const growGraphic = () => {
+
+  // }
 
   const nextQuestion = () => {
     setCounter(counter + 1);
@@ -38,7 +47,7 @@ function App() {
     console.log(score);
   }
 
-  const princessList = princesses.map((e) => {
+  const princessList = heroes.map((e) => {
     if(counter === e.id){
       return (
         <div key={e.id}>
@@ -49,6 +58,8 @@ function App() {
             <p className='option o3' id="o3">{e.o3}</p>
             <p className='option o4' id="o4">{e.o4}</p>
           </div>
+
+          <img id="onomatopoeia" src={bang} alt="bang" />
 
         {/* Answer */}
           <div className='answer' id="answer">
@@ -65,11 +76,11 @@ function App() {
   });
 
   function endPage() {
-    if (counter > princesses.length){
+    if (counter > heroes.length){
       return (
         <div>
           <h3>Congratulations!! You finished the quiz.</h3>
-          <p>You got {score} out of {princesses.length} answers correct on the first try.</p>
+          <p>You got {score} out of {heroes.length} answers correct on the first try.</p>
           <p>Click the button below to start again.</p>
           <p className='option btn-next btn-again' id="btnAgain" onClick={startOver}>Start Over</p>
         </div>

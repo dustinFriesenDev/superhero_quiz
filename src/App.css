@@ -95,6 +95,18 @@ img {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+#onomatopoeia {
+  display: none;
+}
+
+.add-onomatopoeia {
+  animation: onomatopoeia .5s;
+}
+
+@keyframes onomatopoeia {
+  100% { transform: scale(4); }
+}
+
 .btn-next {
   width: 70px;
   padding: 10px 12px;
