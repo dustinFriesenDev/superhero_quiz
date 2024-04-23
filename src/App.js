@@ -8,6 +8,7 @@ function App() {
   const [addPoint, setAddPoint] = useState(0);
   const [score, setScore] = useState(0);
   const [onomatopoeia] = useState(document.getElementById("onomatopoeia"));
+  const [answer] = useState(document.getElementById("answer"));
 
   const correctAnswer = (e) => {
     const oc = document.getElementById("option-container");
@@ -19,7 +20,7 @@ function App() {
       oc.style.display = "none";
       onomatopoeia.style.display = "inline";
       onomatopoeia.classList.add("add-onomatopoeia");
-      
+      setTimeout(growGraphic, 400);
       // answer.style.display = "block";
       setAddPoint(addPoint + 1);
     } else {
@@ -33,9 +34,13 @@ function App() {
     }
   }
 
-  // const growGraphic = () => {
-
-  // }
+  function growGraphic() {
+    const answer = document.getElementById("answer");
+    const onomatopoeia = document.getElementById("onomatopoeia")
+    onomatopoeia.classList.remove("onomatopoeia");
+    onomatopoeia.style.display = "none";
+    answer.style.display = "block";
+  }
 
   const nextQuestion = () => {
     setCounter(counter + 1);

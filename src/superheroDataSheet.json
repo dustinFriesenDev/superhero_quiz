@@ -84,20 +84,20 @@
         "o1":"Wasp",
         "o2":"Batgirl",
         "o3":"Gomora",
-        "o4":"Black Wido",
-        "answer":"Elsa",
+        "o4":"Black Widow",
+        "answer":"Black Widow",
         "img":"https://live.staticflickr.com/65535/53657861587_b210d7383a_o.jpg",
         "altText":"Princess Elsa wearing a light blue dress made of snow and ice."
     },
     {
         "id":9,
         "name":"Flash",
-        "question":"He's the fastes man alive in a red suit. Which hero is he?",
+        "question":"He's the fastest man alive in a red suit. Which hero is he?",
         "o1":"Flash",
         "o2":"Spider-Man",
         "o3":"Superman",
         "o4":"Iron-Man",
-        "answer":"Anna",
+        "answer":"Flash",
         "img":"https://live.staticflickr.com/65535/53659081674_e9d870c119_o.jpg",
         "altText":"Princess Anna wearing a dress with a black top and green skirt."
     },{
@@ -168,7 +168,7 @@
         "o2":"Batman",
         "o3":"Captain America",
         "o4":"Spider-Man",
-        "answer":"Flash",
+        "answer":"Captain America",
         "img":"https://live.staticflickr.com/65535/53659194360_87fcf0163b_o.jpg",
         "altText":"Princess Ariel as a mermaid and pink seashell top."
     },

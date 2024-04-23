@@ -100,11 +100,11 @@ img {
 }
 
 .add-onomatopoeia {
-  animation: onomatopoeia .5s;
+  animation: onomatopoeia .4s;
 }
 
 @keyframes onomatopoeia {
-  100% { transform: scale(4); }
+  100% { transform: scale(6); }
 }
 
 .btn-next {
