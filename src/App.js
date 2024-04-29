@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import heroes from './superheroDataSheet.json';
 import bang from "./images/comic_graphics/vecteezy_bang-comic-explosion-with-yellow-and-red-colors-explosion_24800846.png";
+import graphic from "./images/comic_graphics/vecteezy_poof-comic-explosion-comic-blast-vector-with-bubble_8878650.png";
 
 function App() {
   const [counter, setCounter] = useState(1);
@@ -20,8 +21,7 @@ function App() {
       oc.style.display = "none";
       onomatopoeia.style.display = "inline";
       onomatopoeia.classList.add("add-onomatopoeia");
-      setTimeout(growGraphic, 400);
-      // answer.style.display = "block";
+      setTimeout(growGraphic, 1000);
       setAddPoint(addPoint + 1);
     } else {
       if(option.id !== "option-container"){
@@ -30,6 +30,7 @@ function App() {
         option.style.opacity = "0.7";
         option.classList.add("add-shake");
         setAddPoint(addPoint - 1);
+        console.log(nextQuestion("flight"));
       }
     }
   }
@@ -42,15 +43,29 @@ function App() {
     answer.style.display = "block";
   }
 
-  const nextQuestion = () => {
-    setCounter(counter + 1);
+  function graphicTransition(td) {
+    const graphic = document.getElementById("graphic");
+    const answerImage = document.getElementById('answerImage');
+    answerImage.style.display = "none";
+    graphic.style.display = "inline";
+    graphic.setAttribute("class", {td});
+  }
+
+  function nextId(){
+    setCounter(counter +1);
+  }
+
+  function nextQuestion(td) {
+    graphicTransition(td);
     if(addPoint > 0){
       setScore(score + 1);
     }
     setAddPoint(0);
-    console.log(addPoint);
-    console.log(score);
+    setTimeout(nextId, 1000);
+    
   }
+
+  
 
   const princessList = heroes.map((e) => {
     if(counter === e.id){
@@ -70,9 +85,8 @@ function App() {
           <div className='answer' id="answer">
             <h3>{e.name}</h3>
             <p style={{display: "none"}} id="correct">{e.answer}</p>
-            {/* Working on creating a border layer to make the image an oval without having to alter the image. */}
-            {/* <div className='border'></div> */}
-            <img src={e.img} alt={e.altText} />
+            <img id="answerImage" src={e.img} alt={e.altText} />
+            <img id="graphic" src={e.transition} alt={e.transitionAlt} />
             <p className='option btn-next' id="btnNext" onClick={nextQuestion}>Next</p>
           </div>
         </div>
@@ -111,7 +125,7 @@ function App() {
         </div>
       <footer>
         <small>Quiz created by Dustin Friesen. All images and characters are owned by Marvel and DC Comics . This quiz is for demonstration purposes only.</small>
-        <small><a href="https://www.vecteezy.com/free-png/comic-bang">Comic Bang PNGs by Vecteezy</a></small>
+        <small><a href="https://www.vecteezy.com/free-png/comic-bang">Comic onomatopoeias PNGs by Vecteezy</a></small>
       </footer>
     </div>
   );

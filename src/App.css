@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to bottom, #3a1df5, #1a0890);
   background-color:#1a0890;
+  overflow-x: hidden;
 }
 
 a {
@@ -35,6 +36,8 @@ a {
   flex-direction: column;
   min-width: 300px;
   height: 490px;
+  background-image: linear-gradient(to bottom, #3a1df5, #1a0890);
+  margin-bottom: 10px;
 }
 
 .question {
@@ -71,6 +74,14 @@ a {
   margin: auto;
 }
 
+h3 {
+  width: 250px;
+  color: white;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 12px;
+}
+
 img {
   height: 275px;
   width: auto;
@@ -100,11 +111,68 @@ img {
 }
 
 .add-onomatopoeia {
-  animation: onomatopoeia .4s;
+  animation: onomatopoeia 1s;
 }
 
 @keyframes onomatopoeia {
   100% { transform: scale(6); }
+}
+#graphic {
+  display: none;
+}
+
+.fly-right {
+  animation: straight-right 1.1s;
+}
+
+@keyframes straight-right {
+  0% { transform: translateX(0); }
+  100%{ transform: translateX(350%) }  
+}
+
+.fly-left {
+  animation: straight-left 1.1s;
+}
+
+@keyframes straight-left {
+  0% { transform: translateX(0); }
+  100%{ transform: translateX(-350%) }  
+}
+
+.fly-up {
+  animation: straight-up 1.1s;
+}
+
+@keyframes straight-up {
+  0% { transform: translateY(0); }
+  100%{ transform: translateY(-350%) }  
+}
+
+.disappear {
+  animation: change-opacity 1.1s;
+}
+
+@keyframes change-opacity {
+  0% { opacity: 1; }
+  100%{ opacity: 0; }  
+}
+
+.swing-right {
+  animation: catenary-right 1.1s;
+}
+
+@keyframes catenary-right {
+  0% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
+  100% { transform: rotate(-180deg) translateY(500%) rotate(180deg); }
+}
+
+.swing-left {
+  animation: catenary-left 1.1s;
+}
+
+@keyframes catenary-left {
+  0% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
+  100% { transform: rotate(180deg) translateY(500%) rotate(-180deg); }
 }
 
 .btn-next {
@@ -121,9 +189,10 @@ img {
 footer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   width: 100vw;
-  height: 50px;
+  height: auto;
   background-color: #e50404;
   color: white;
 }
