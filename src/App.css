@@ -1,7 +1,10 @@
 body {
-  background-image: linear-gradient(to bottom, #3a1df5, #1a0890);
-  background-color:#1a0890;
+  /* background-image: linear-gradient(to bottom, #3a1df5, #1a0890); */
+  /* background-color:#1a0890; */
   overflow-x: hidden;
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
 }
 
 a {
@@ -18,17 +21,20 @@ a {
 
 
 .App-header {
-  background-image: linear-gradient(to top, #e50404, #6c0606);
-  background-color: #e50404;
+  /* background-image: linear-gradient(to top, #e50404, #6c0606); */
+  /* background-color: #e50404; */
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
   font-weight: 700;
   font-size: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  color: rgb(255, 253, 162);
-  text-shadow: 1px -1px black;
-  padding: 15px;
+  /* color: rgb(255, 253, 162); */
+  color: #1a0890;
+  text-shadow: -1px 1px black;
+  padding: 25px 15px 15px;
 }
 
 .main-container {
@@ -36,16 +42,23 @@ a {
   flex-direction: column;
   min-width: 300px;
   height: 490px;
-  background-image: linear-gradient(to bottom, #3a1df5, #1a0890);
+  /* background-image: linear-gradient(to bottom, #3a1df5, #1a0890); */
   margin-bottom: 10px;
 }
 
 .question {
   margin: 20px;
   font-size: 1.6rem;
-  font-weight: 600;
-  color: rgb(255, 253, 162);
-  text-shadow: 1px -1px 1px black;
+  /*font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600; */
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 10px;
+  /* color: rgb(255, 253, 162);
+  text-shadow: 1px -1px 1px black; */
 }
 
 .option-container {
@@ -64,8 +77,9 @@ a {
 }
 
 .option:hover {
-  background-color: #391bfb;
-  color: #ffe90c;
+  /* background-color: #391bfb; */
+  background-color: #ffe90c;
+  color: black;
   transition: 0.5s;
 }
 
@@ -76,10 +90,17 @@ a {
 
 h3 {
   width: 250px;
-  color: white;
   margin: 0 auto;
+  font-family: "Grandstander", cursive;
+  font-weight: 700;
   font-size: 1.5rem;
-  padding-bottom: 12px;
+  color:#1a0890;
+  padding-top: 5px;
+  padding-bottom: 17px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 4px;
+  
 }
 
 img {
@@ -127,6 +148,7 @@ img {
 
 @keyframes straight-right {
   0% { transform: translateX(0); }
+  50% { transform: translateX(0); }
   100%{ transform: translateX(350%) }  
 }
 
@@ -136,6 +158,7 @@ img {
 
 @keyframes straight-left {
   0% { transform: translateX(0); }
+  50% { transform: translateX(0); }
   100%{ transform: translateX(-350%) }  
 }
 
@@ -145,6 +168,7 @@ img {
 
 @keyframes straight-up {
   0% { transform: translateY(0); }
+  50% { transform: translateX(0); }
   100%{ transform: translateY(-350%) }  
 }
 
@@ -154,6 +178,7 @@ img {
 
 @keyframes change-opacity {
   0% { opacity: 1; }
+  50% { opacity: 1; }
   100%{ opacity: 0; }  
 }
 
@@ -163,6 +188,7 @@ img {
 
 @keyframes catenary-right {
   0% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
+  50% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
   100% { transform: rotate(-180deg) translateY(500%) rotate(180deg); }
 }
 
@@ -172,7 +198,20 @@ img {
 
 @keyframes catenary-left {
   0% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
+  50% { transform: rotate(0deg) translateY(0%) rotate(0deg);}
   100% { transform: rotate(180deg) translateY(500%) rotate(-180deg); }
+}
+
+.flash {
+  animation: blur 1.1;
+}
+
+@keyframes blur {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(0); }
+  50% { transform: translateX(-350%); }
+  75% { transform: translateX(700%); }
+  100% { transform: translateX(-700%); }
 }
 
 .btn-next {
@@ -193,7 +232,7 @@ footer {
   align-items: center;
   width: 100vw;
   height: auto;
-  background-color: #e50404;
+  background-color: #1a0890;
   color: white;
 }
 

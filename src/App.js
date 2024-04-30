@@ -15,6 +15,7 @@ function App() {
     const option = e.target;
     const onomatopoeia = document.getElementById("onomatopoeia")
     const correct = document.getElementById("correct");
+    const nameh3 = document.getElementById("heroName");
     if(option.innerText === correct.innerText){
       oc.style.display = "none";
       onomatopoeia.style.display = "inline";
@@ -43,10 +44,10 @@ function App() {
   function graphicTransition(t) {
     const graphic = document.getElementById("graphic");
     const answerImage = document.getElementById('answerImage');
+    const nameh3 = document.getElementById("heroName");
     answerImage.style.display = "none";
     graphic.style.display = "inline";
     graphic.setAttribute("class", t );
-    
   }
 
   function nextId(){
@@ -54,7 +55,7 @@ function App() {
   }
 
   function nextQuestion(t) {
-    setTimeout(graphicTransition(t), 1000);
+    graphicTransition(t);
     if(addPoint > 0){
       setScore(score + 1);
     }
@@ -82,7 +83,7 @@ function App() {
 
         {/* Answer */}
           <div className='answer' id="answer">
-            <h3>{e.name}</h3>
+            <h3 id="heroName">{e.name}</h3>
             <p style={{display: "none"}} id="correct">{e.answer}</p>
             <img id="answerImage" src={e.img} alt={e.altText} />
             <img id="graphic" src={e.transition} alt={e.transitionAlt} />

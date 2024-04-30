@@ -40,7 +40,7 @@
         "img":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f3933ce6-35bd-40d2-a7ad-e9ca75f00f00/df3vva0-f60fa77f-5821-4261-bb44-4510edb3cb3f.jpg/v1/fill/w_1280,h_1827,q_75,strp/chibi_amazing_spider_man_mock_marvel_comic_cover_by_thefoolishworlock_df3vva0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyNyIsInBhdGgiOiJcL2ZcL2YzOTMzY2U2LTM1YmQtNDBkMi1hN2FkLWU5Y2E3NWYwMGYwMFwvZGYzdnZhMC1mNjBmYTc3Zi01ODIxLTQyNjEtYmI0NC00NTEwZWRiM2NiM2YuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.aw04BuHJe3fLxvZtfi0RN_2-FG7Evj8WdTw_wMXTEO8",
         "transition":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a225da6c-8bbc-433a-996d-b97240bc106c/df0ar15-370e4e3f-e5e9-44b2-a1f1-ffc593580bcb.jpg/v1/fill/w_1280,h_1600,q_75,strp/chibi_spider_man_by_carljones91_df0ar15-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcL2EyMjVkYTZjLThiYmMtNDMzYS05OTZkLWI5NzI0MGJjMTA2Y1wvZGYwYXIxNS0zNzBlNGUzZi1lNWU5LTQ0YjItYTFmMS1mZmM1OTM1ODBiY2IuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ggAnY9co8gv6Dc86DplQelCEZFCBm6wUbwyAYQc8ohI",
         "transitionAlt":"swing up left",
-        "transitionName" : "swing-right",
+        "transitionName" : "swing-left",
         "altText":"Spider-Man"
     },{
         "id":4,
@@ -51,11 +51,11 @@
         "o3":"Batgirl",
         "o4":"Ghost-Spider",
         "answer":"Ghost-Spider",
-        "img":"https://live.staticflickr.com/65535/53659194365_3dac0a6e8c_o.jpg",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":"Snow White in a blue and yellow dress."
+        "img":"https://i5.walmartimages.com/asr/1dfdbc3e-3e04-4229-8e46-8b6044c48e18.1c542889ee90a00740271ea8306510cf.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "transition":"https://wallpapers.com/images/hd/red-purple-spider-gwen-hd-2dos2fng9hbl7hkg.jpg",
+        "transitionAlt":"Ghost Spider singing to the right.",
+        "transitionName" : "swing-right",
+        "altText":"Ghost Spider shooting web from her right hand."
     },{
         "id":5,
         "name":"Superman",
@@ -65,11 +65,11 @@
         "o3":"Green Lantern",
         "o4":"Flash",
         "answer":"Superman",
-        "img":"https://live.staticflickr.com/65535/53658723191_b07fe990f3_o.jpg",
+        "img":"https://static.wikia.nocookie.net/marvel_dc/images/a/a5/Superman_Vol_5_1_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20180711061148",
         "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":"Princess Tiana in a yellow dress."
+        "transitionAlt":"Superman flyig to the left",
+        "transitionName" : "fly-left",
+        "altText":"Superman posing with his fists on his hips."
     },{
         "id":6,
         "name":"Supergirl",
@@ -79,11 +79,11 @@
         "o3":"Wasp",
         "o4":"Ghost-Spider",
         "answer":"Supergirl",
-        "img":"https://live.staticflickr.com/65535/53657861552_6c18d1f01f_o.jpg",
-        "transition":"",
-        "transitionAlt":"",
+        "img":"https://i.pinimg.com/474x/0b/a0/e1/0ba0e12a9f7df543acac7cf5e1ab1003.jpg",
+        "transition":"https://i.pinimg.com/originals/ac/11/35/ac113568536bc543d61e05431f2cf719.png",
+        "transitionAlt":"Supergirl flying to the right.",
         "transitionName" : "fly-right",
-        "altText":"Princess Merida in a green dress with curly red hair."
+        "altText":"Supergirl flying and looking off to the left"
     },{
         "id":7,
         "name":"Iron-Man",
@@ -93,11 +93,11 @@
         "o3":"Iron-Man",
         "o4":"Flash",
         "answer":"Iron-Man",
-        "img":"https://live.staticflickr.com/65535/53658953023_e5027d5419_o.jpg",
-        "transition":"",
-        "transitionAlt":"",
+        "img":"https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Iron-Man-in-Spidey-and-His-Amazing-Friends.jpg",
+        "transition":"https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Iron-Man-in-Spidey-and-His-Amazing-Friends.jpg",
+        "transitionAlt":"Iron-man flying to the right.",
         "transitionName" : "fly-right",
-        "altText":"Princess Mulan in a green and blue Hanfu."
+        "altText":"Iron-man flying to the right"
     },{
         "id":8,
         "name":"Black Widow",
@@ -107,11 +107,11 @@
         "o3":"Gomora",
         "o4":"Black Widow",
         "answer":"Black Widow",
-        "img":"https://live.staticflickr.com/65535/53657861587_b210d7383a_o.jpg",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":"Princess Elsa wearing a light blue dress made of snow and ice."
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-lWtpEtWMpVF0QsHC6tvmYRP2_c-4wNf3eEwcC2bT_g&s",
+        "transition":"https://64.media.tumblr.com/b0e134db1391ef2e8d5e5099bc3069c2/tumblr_orc08ccHuN1rw8pajo1_1280.jpg",
+        "transitionAlt":"Black Widow jumping backwards towards the left.",
+        "transitionName" : "disappear",
+        "altText":"Black Widow standing with a sweet look and a stick in her left hand."
     },
     {
         "id":9,
@@ -122,11 +122,11 @@
         "o3":"Superman",
         "o4":"Iron-Man",
         "answer":"Flash",
-        "img":"https://live.staticflickr.com/65535/53659081674_e9d870c119_o.jpg",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":"Princess Anna wearing a dress with a black top and green skirt."
+        "img":"https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1500x1500/products/87964/89908/The-Flash-DC-Comics-Lifesize-Cardboard-Cutout-available-now-at-starstills__31957.1474976928.jpg?c=2&imbypass=on",
+        "transition":"https://i.pinimg.com/736x/07/d9/01/07d901c8eedcd59aae0bb8b23dc438dd.jpg",
+        "transitionAlt":"The flash running to the right with lighting shooting of",
+        "transitionName" : "flash",
+        "altText":"The flash posing with his fist on his waist."
     },{
         "id":10,
         "name":"Batgirl",
@@ -136,11 +136,11 @@
         "o3":"Bumblebee",
         "o4":"Black Widow",
         "answer":"Batgirl",
-        "img":"https://live.staticflickr.com/65535/53657861537_fef6cf3685_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Rapunzel wearing a purple dress."
+        "altText":""
     },
     {
         "id":11,
@@ -151,11 +151,11 @@
         "o3":"Hulk",
         "o4":"Flash",
         "answer":"Hulk",
-        "img":"https://live.staticflickr.com/65535/53658723231_2966704e7b_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Jasmine wearing a blue two piece gown."
+        "altText":""
     },
     {
         "id":12,
@@ -166,11 +166,11 @@
         "o3":"Supergirl",
         "o4":"Gomora",
         "answer":"Gomora",
-        "img":"https://live.staticflickr.com/65535/53658953013_7ef8b3c5ed_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Pocahontas wearing a tan gown decorated with feather and beads."
+        "altText":""
     },
     {
         "id":13,
@@ -181,11 +181,11 @@
         "o3":"Hulk",
         "o4":"Iron-Man",
         "answer":"Green Lantern",
-        "img":"https://live.staticflickr.com/65535/53659194420_501af9a35d_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Moana wearing a orange tapa top and tan pandanus skirt."
+        "altText":""
     },
     {
         "id":14,
@@ -196,11 +196,11 @@
         "o3":"Batgirl",
         "o4":"Wonder Woman",
         "answer":"Bumblebee",
-        "img":"https://live.staticflickr.com/65535/53657861532_9c7da68a73_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Raya wearing a sampot dress, a traditional cambodian dance outfit."
+        "altText":""
     },
     {
         "id":15,
@@ -211,11 +211,11 @@
         "o3":"Captain America",
         "o4":"Spider-Man",
         "answer":"Captain America",
-        "img":"https://live.staticflickr.com/65535/53659194360_87fcf0163b_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Ariel as a mermaid and pink seashell top."
+        "altText":""
     },
     {
         "id":16,
@@ -226,10 +226,10 @@
         "o3":"Ghost-Spider",
         "o4":"Wasp",
         "answer":"Wasp",
-        "img":"https://live.staticflickr.com/65535/53659194360_87fcf0163b_o.jpg",
+        "img":"",
         "transition":"",
         "transitionAlt":"",
         "transitionName" : "fly-right",
-        "altText":"Princess Ariel as a mermaid and pink seashell top."
+        "altText":""
     }
 ]
