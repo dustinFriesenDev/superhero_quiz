@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import heroes from './superheroDataSheet.json';
 import bang from "./images/comic_graphics/vecteezy_bang-comic-explosion-with-yellow-and-red-colors-explosion_24800846.png";
 import graphic from "./images/comic_graphics/vecteezy_poof-comic-explosion-comic-blast-vector-with-bubble_8878650.png";
@@ -8,8 +8,6 @@ function App() {
   const [counter, setCounter] = useState(1);
   const [addPoint, setAddPoint] = useState(0);
   const [score, setScore] = useState(0);
-  const [onomatopoeia] = useState(document.getElementById("onomatopoeia"));
-  const [answer] = useState(document.getElementById("answer"));
 
   const correctAnswer = (e) => {
     const oc = document.getElementById("option-container");
@@ -30,7 +28,6 @@ function App() {
         option.style.opacity = "0.7";
         option.classList.add("add-shake");
         setAddPoint(addPoint - 1);
-        console.log(nextQuestion("flight"));
       }
     }
   }
@@ -43,20 +40,21 @@ function App() {
     answer.style.display = "block";
   }
 
-  function graphicTransition(td) {
+  function graphicTransition(t) {
     const graphic = document.getElementById("graphic");
     const answerImage = document.getElementById('answerImage');
     answerImage.style.display = "none";
     graphic.style.display = "inline";
-    graphic.setAttribute("class", {td});
+    graphic.setAttribute("class", t );
+    
   }
 
   function nextId(){
     setCounter(counter +1);
   }
 
-  function nextQuestion(td) {
-    graphicTransition(td);
+  function nextQuestion(t) {
+    setTimeout(graphicTransition(t), 1000);
     if(addPoint > 0){
       setScore(score + 1);
     }
@@ -68,6 +66,7 @@ function App() {
   
 
   const princessList = heroes.map((e) => {
+    
     if(counter === e.id){
       return (
         <div key={e.id}>
@@ -87,7 +86,9 @@ function App() {
             <p style={{display: "none"}} id="correct">{e.answer}</p>
             <img id="answerImage" src={e.img} alt={e.altText} />
             <img id="graphic" src={e.transition} alt={e.transitionAlt} />
-            <p className='option btn-next' id="btnNext" onClick={nextQuestion}>Next</p>
+            <p className='option btn-next' id="btnNext" onClick={()=>{
+              nextQuestion(e.transitionName);
+            }}>Next</p>
           </div>
         </div>
       )

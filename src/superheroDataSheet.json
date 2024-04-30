@@ -26,6 +26,7 @@
         "img":"https://image.cdn2.seaart.ai/2024-01-14/cmi1o1de878c73ep49u0/664d2db707a982dc3facb7a7cccfe1604b478f7f_low.webp",
         "transition":"https://comichub.blob.core.windows.net/high/2c1a0a7f-d713-409a-9e79-1da954602e9e.jpg",
         "transitionAlt":"Wonder Woman flying up with her fist raised in the air.",
+        "transitionName" : "fly-up",
         "altText":"Princess Cinderella in a blue gown."
     },{
         "id":3,
@@ -39,6 +40,7 @@
         "img":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f3933ce6-35bd-40d2-a7ad-e9ca75f00f00/df3vva0-f60fa77f-5821-4261-bb44-4510edb3cb3f.jpg/v1/fill/w_1280,h_1827,q_75,strp/chibi_amazing_spider_man_mock_marvel_comic_cover_by_thefoolishworlock_df3vva0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyNyIsInBhdGgiOiJcL2ZcL2YzOTMzY2U2LTM1YmQtNDBkMi1hN2FkLWU5Y2E3NWYwMGYwMFwvZGYzdnZhMC1mNjBmYTc3Zi01ODIxLTQyNjEtYmI0NC00NTEwZWRiM2NiM2YuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.aw04BuHJe3fLxvZtfi0RN_2-FG7Evj8WdTw_wMXTEO8",
         "transition":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a225da6c-8bbc-433a-996d-b97240bc106c/df0ar15-370e4e3f-e5e9-44b2-a1f1-ffc593580bcb.jpg/v1/fill/w_1280,h_1600,q_75,strp/chibi_spider_man_by_carljones91_df0ar15-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcL2EyMjVkYTZjLThiYmMtNDMzYS05OTZkLWI5NzI0MGJjMTA2Y1wvZGYwYXIxNS0zNzBlNGUzZi1lNWU5LTQ0YjItYTFmMS1mZmM1OTM1ODBiY2IuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ggAnY9co8gv6Dc86DplQelCEZFCBm6wUbwyAYQc8ohI",
         "transitionAlt":"swing up left",
+        "transitionName" : "swing-right",
         "altText":"Spider-Man"
     },{
         "id":4,
@@ -52,6 +54,7 @@
         "img":"https://live.staticflickr.com/65535/53659194365_3dac0a6e8c_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Snow White in a blue and yellow dress."
     },{
         "id":5,
@@ -65,6 +68,7 @@
         "img":"https://live.staticflickr.com/65535/53658723191_b07fe990f3_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Tiana in a yellow dress."
     },{
         "id":6,
@@ -78,6 +82,7 @@
         "img":"https://live.staticflickr.com/65535/53657861552_6c18d1f01f_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Merida in a green dress with curly red hair."
     },{
         "id":7,
@@ -91,6 +96,7 @@
         "img":"https://live.staticflickr.com/65535/53658953023_e5027d5419_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Mulan in a green and blue Hanfu."
     },{
         "id":8,
@@ -104,6 +110,7 @@
         "img":"https://live.staticflickr.com/65535/53657861587_b210d7383a_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Elsa wearing a light blue dress made of snow and ice."
     },
     {
@@ -118,6 +125,7 @@
         "img":"https://live.staticflickr.com/65535/53659081674_e9d870c119_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Anna wearing a dress with a black top and green skirt."
     },{
         "id":10,
@@ -131,6 +139,7 @@
         "img":"https://live.staticflickr.com/65535/53657861537_fef6cf3685_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Rapunzel wearing a purple dress."
     },
     {
@@ -145,6 +154,7 @@
         "img":"https://live.staticflickr.com/65535/53658723231_2966704e7b_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Jasmine wearing a blue two piece gown."
     },
     {
@@ -159,6 +169,7 @@
         "img":"https://live.staticflickr.com/65535/53658953013_7ef8b3c5ed_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Pocahontas wearing a tan gown decorated with feather and beads."
     },
     {
@@ -173,6 +184,7 @@
         "img":"https://live.staticflickr.com/65535/53659194420_501af9a35d_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Moana wearing a orange tapa top and tan pandanus skirt."
     },
     {
@@ -187,6 +199,7 @@
         "img":"https://live.staticflickr.com/65535/53657861532_9c7da68a73_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Raya wearing a sampot dress, a traditional cambodian dance outfit."
     },
     {
@@ -201,6 +214,7 @@
         "img":"https://live.staticflickr.com/65535/53659194360_87fcf0163b_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Ariel as a mermaid and pink seashell top."
     },
     {
@@ -215,6 +229,7 @@
         "img":"https://live.staticflickr.com/65535/53659194360_87fcf0163b_o.jpg",
         "transition":"",
         "transitionAlt":"",
+        "transitionName" : "fly-right",
         "altText":"Princess Ariel as a mermaid and pink seashell top."
     }
 ]
