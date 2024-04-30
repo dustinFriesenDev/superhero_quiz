@@ -1,8 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import heroes from './superheroDataSheet.json';
-import bang from "./images/comic_graphics/vecteezy_bang-comic-explosion-with-yellow-and-red-colors-explosion_24800846.png";
-import graphic from "./images/comic_graphics/vecteezy_poof-comic-explosion-comic-blast-vector-with-bubble_8878650.png";
+import bang from "./images/comic_graphics/vecteezy_winner-comic-explosion-with-red-and-yellow-colors-speech_24800507.png";
 
 function App() {
   const [counter, setCounter] = useState(1);
@@ -15,7 +14,6 @@ function App() {
     const option = e.target;
     const onomatopoeia = document.getElementById("onomatopoeia")
     const correct = document.getElementById("correct");
-    const nameh3 = document.getElementById("heroName");
     if(option.innerText === correct.innerText){
       oc.style.display = "none";
       onomatopoeia.style.display = "inline";
@@ -44,7 +42,6 @@ function App() {
   function graphicTransition(t) {
     const graphic = document.getElementById("graphic");
     const answerImage = document.getElementById('answerImage');
-    const nameh3 = document.getElementById("heroName");
     answerImage.style.display = "none";
     graphic.style.display = "inline";
     graphic.setAttribute("class", t );
@@ -100,7 +97,7 @@ function App() {
     if (counter > heroes.length){
       return (
         <div>
-          <h3>Congratulations!! You finished the quiz.</h3>
+          <h2 className='congratulations'>Congratulations!! You finished the quiz.</h2>
           <p>You got {score} out of {heroes.length} answers correct on the first try.</p>
           <p>Click the button below to start again.</p>
           <p className='option btn-next btn-again' id="btnAgain" onClick={startOver}>Start Over</p>

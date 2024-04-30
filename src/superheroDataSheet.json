@@ -65,8 +65,8 @@
         "o3":"Green Lantern",
         "o4":"Flash",
         "answer":"Superman",
-        "img":"https://static.wikia.nocookie.net/marvel_dc/images/a/a5/Superman_Vol_5_1_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20180711061148",
-        "transition":"",
+        "img":"https://i.redd.it/happy-85th-anniversary-to-big-blue-a-gallery-of-some-of-my-v0-zbmy9xpmmpua1.jpg?width=2698&format=pjpg&auto=webp&s=51eda1eee3fc0e3f6d8c1c6512a9fb4558aef693",
+        "transition":"https://miro.medium.com/v2/resize:fit:1200/1*0f0JYuQz5IQzkDe1USE57g.jpeg",
         "transitionAlt":"Superman flyig to the left",
         "transitionName" : "fly-left",
         "altText":"Superman posing with his fists on his hips."
@@ -125,7 +125,7 @@
         "img":"https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1500x1500/products/87964/89908/The-Flash-DC-Comics-Lifesize-Cardboard-Cutout-available-now-at-starstills__31957.1474976928.jpg?c=2&imbypass=on",
         "transition":"https://i.pinimg.com/736x/07/d9/01/07d901c8eedcd59aae0bb8b23dc438dd.jpg",
         "transitionAlt":"The flash running to the right with lighting shooting of",
-        "transitionName" : "flash",
+        "transitionName" : "flash-blur",
         "altText":"The flash posing with his fist on his waist."
     },{
         "id":10,
@@ -136,11 +136,11 @@
         "o3":"Bumblebee",
         "o4":"Black Widow",
         "answer":"Batgirl",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
+        "img":"https://live.staticflickr.com/664/21892167619_73d92f6557_z.jpg",
+        "transition":"https://static1.srcdn.com/wordpress/wp-content/uploads/2022/01/Batgirl-Movie-Car-Chase-Batcycle.jpg",
+        "transitionAlt":"Batgirl on her batcycle zooming off to the right.",
         "transitionName" : "fly-right",
-        "altText":""
+        "altText":"Batgirl running towards the screen."
     },
     {
         "id":11,
@@ -151,26 +151,26 @@
         "o3":"Hulk",
         "o4":"Flash",
         "answer":"Hulk",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":""
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxwt6qCASh7v_fZxA-NW7O0ElpTuh8Zwm_qQRTekfd_A&s",
+        "transition":"https://storage.ko-fi.com/cdn/useruploads/display/b6907577-b8e2-4941-9ef1-f848b08355e1_hulkchibi.png",
+        "transitionAlt":"Child like hulk about to jump.",
+        "transitionName" : "fly-up",
+        "altText":"Hulk looking curious into the distance."
     },
     {
         "id":12,
-        "name":"Gomora",
+        "name":"Gamora",
         "question":"She is from outerspace, has green skin, and fights with the guardians of the galaxy. Which hero is it?",
         "o1":"Ghost-Spider",
         "o2":"Wasp",
         "o3":"Supergirl",
-        "o4":"Gomora",
-        "answer":"Gomora",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":""
+        "o4":"Gamora",
+        "answer":"Gamora",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1n_EhO1K6S5LrGl15tQdlDvkhxrClPqko33mUGoHIg&s",
+        "transition":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d58bd07c-99bc-4a35-b2a3-b63689b37f4d/d7yx3ff-d1132545-c822-4903-befb-e68c358a9d7e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1OGJkMDdjLTk5YmMtNGEzNS1iMmEzLWI2MzY4OWIzN2Y0ZFwvZDd5eDNmZi1kMTEzMjU0NS1jODIyLTQ5MDMtYmVmYi1lNjhjMzU4YTlkN2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.d5xscZTD9wsjjcPlMQmu4h4HsX_cQbzUTtdA5ioJmYU",
+        "transitionAlt":"Gamora standing and looking bored.",
+        "transitionName" : "disappear",
+        "altText":"Gamora posing on one foot with a sword, looks like she's dancing."
     },
     {
         "id":13,
@@ -181,11 +181,11 @@
         "o3":"Hulk",
         "o4":"Iron-Man",
         "answer":"Green Lantern",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":""
+        "img":"https://pbs.twimg.com/media/EbJwtwmUMAAvUT3.jpg",
+        "transition":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-9AlYBpeKDSVMo2bBHzVm_As7jFgsClDBtZ1zvwglozC9u8fnl8KgJ1_LLwFl3nm3EU&usqp=CAU",
+        "transitionAlt":"Green Lanterning flying up with his emblem at his feet.",
+        "transitionName" : "fly-up",
+        "altText":"Green Lantern holding up ring floating through space."
     },
     {
         "id":14,
@@ -196,11 +196,11 @@
         "o3":"Batgirl",
         "o4":"Wonder Woman",
         "answer":"Bumblebee",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
+        "img":"https://static.dc.com/sites/default/files/imce/2016/03-MAR/DCSHG_Bumblebee_56f9e35c01df85.58850150.PNG",
+        "transition":"https://bgn2018media.s3.amazonaws.com/wp-content/uploads/2019/08/27133216/Screen-Shot-2019-08-01-at-1.48.01-PM.png",
+        "transitionAlt":"Bumblebee flying off to the right with a determined look on her face.",
         "transitionName" : "fly-right",
-        "altText":""
+        "altText":"Bumblebee flying and gliding to the right."
     },
     {
         "id":15,
@@ -211,11 +211,11 @@
         "o3":"Captain America",
         "o4":"Spider-Man",
         "answer":"Captain America",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
-        "transitionName" : "fly-right",
-        "altText":""
+        "img":"https://i.etsystatic.com/13525976/r/il/12c1ad/1584032375/il_fullxfull.1584032375_8wxx.jpg",
+        "transition":"https://qph.cf2.quoracdn.net/main-qimg-b2c98911f04ba8d4ce63d5d47074c36f-lq",
+        "transitionAlt":"Captain America using his shield.",
+        "transitionName" : "disappear",
+        "altText":"Captain America jumping over bricks and saluting."
     },
     {
         "id":16,
@@ -226,10 +226,10 @@
         "o3":"Ghost-Spider",
         "o4":"Wasp",
         "answer":"Wasp",
-        "img":"",
-        "transition":"",
-        "transitionAlt":"",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzSfRzHdMnJeuxNInvnB3rhuXowfeUF_pXxAFfGgINg&s",
+        "transition":"https://media.tenor.com/cUpaw9N6xtYAAAAe/ant-man-and-the-wasp-quantumania-marvel-studios.png",
+        "transitionAlt":"Wasp flying to the right.",
         "transitionName" : "fly-right",
-        "altText":""
+        "altText":"Wasp posed for action."
     }
 ]
