@@ -18,7 +18,7 @@ function App() {
       oc.style.display = "none";
       onomatopoeia.style.display = "inline";
       onomatopoeia.classList.add("add-onomatopoeia");
-      setTimeout(growGraphic, 1000);
+      setTimeout(growGraphic, 800);
       setAddPoint(addPoint + 1);
     } else {
       if(option.id !== "option-container"){
