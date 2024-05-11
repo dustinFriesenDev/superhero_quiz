@@ -2,7 +2,7 @@
     {
         "id":1,
         "name":"Batman",
-        "question":"This hero hides in the shadows and has bataranges and a batmobile? Who is he?",
+        "question":"This hero hides in the shadows and has bataranges and a batwing? Who is he?",
         "o1":"Batman",
         "o2":"Superman",
         "o3":"Spiderman",
@@ -17,7 +17,7 @@
     {
         "id":2,
         "name":"Wonder Woman",
-        "question":"Her lasso of truth and her invisible jet helps her in her battle to fight crime. Who is she?",
+        "question":"Her lasso of truth and her invisible jet help her in her battle to fight crime. Who is she?",
         "o1":"Bumblebee",
         "o2":"Wonder Woman",
         "o3":"Wasp",
@@ -87,7 +87,7 @@
     },{
         "id":7,
         "name":"Iron-Man",
-        "question":"Which hero has a suit of armor that lets him help others?",
+        "question":"Who has a suit of armor that lets him help others?",
         "o1":"Spider-Man",
         "o2":"Hulk",
         "o3":"Iron-Man",
@@ -130,7 +130,7 @@
     },{
         "id":10,
         "name":"Batgirl",
-        "question":"This hero uses her bat-computer and bat-gadets to stop criminals. Who is she?",
+        "question":"Who uses her bat-computer and bat-gadets to stop criminals?",
         "o1":"Wonder Woman",
         "o2":"Batgirl",
         "o3":"Bumblebee",
@@ -160,7 +160,7 @@
     {
         "id":12,
         "name":"Gamora",
-        "question":"She is from outerspace, has green skin, and fights with the guardians of the galaxy. Which hero is it?",
+        "question":"Who is from outerspace, has green skin, and fights with the guardians of the galaxy?",
         "o1":"Ghost-Spider",
         "o2":"Wasp",
         "o3":"Supergirl",
